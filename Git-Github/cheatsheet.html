@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Comandos mas utilizados</title>
+  </head>
+  <body>
+    <h1>Comandos más utilizados de Git y Navegación en Carpetas</h1>
+
+    <h2>Configuración</h2>
+    <p>Configurar el nombre y correo electrónico del usuario:</p>
+    <pre>
+      <code>
+        git config --global user.name "Tu Nombre"
+        git config --global user.email "tu@email.com"
+      </code>
+    </pre>
+
+    <h2>Creación y clonación de repositorios</h2>
+    <p>Inicializar un repositorio vacío en la carpeta actual:</p>
+    <pre>
+      <code>
+        git init
+      </code>
+    </pre>
+    <p>Clonar un repositorio remoto:</p>
+    <pre>
+      <code>
+        git clone &lt;url_repositorio&gt;
+      </code>
+    </pre>
+
+    <h2>Registro de cambios</h2>
+    <p>Ver el estado de los archivos en el repositorio:</p>
+    <pre>
+      <code>
+        git status
+      </code>
+    </pre>
+    <p>Agregar cambios al área de preparación:</p>
+    <pre>
+      <code>
+        git add &lt;archivo&gt;
+      </code>
+    </pre>
+    <p>Crear un nuevo commit con los cambios agregados:</p>
+    <pre>
+      <code>
+        git commit -m "Mensaje del commit"
+      </code>
+    </pre>
+
+    <h2>Exploración del historial</h2>
+    <p>Ver el historial de commits:</p>
+    <pre>
+      <code>
+        git log
+      </code>
+    </pre>
+    <p>Ver el historial de commits de forma simplificada:</p>
+    <pre>
+      <code>
+        git log --oneline
+      </code>
+    </pre>
+    <p>Ver las diferencias entre commits o cambios sin preparar:</p>
+    <pre>
+      <code>
+        git diff
+      </code>
+    </pre>
+
+    <h2>Ramas</h2>
+    <p>Ver las ramas existentes en el repositorio:</p>
+    <pre>
+      <code>
+        git branch
+      </code>
+    </pre>
+    <p>Crear una nueva rama:</p>
+    <pre>
+      <code>
+        git branch &lt;nombre_rama&gt;
+      </code>
+    </pre>
+    <p>Cambiar a una rama existente:</p>
+    <pre>
+      <code>
+        git checkout &lt;nombre_rama&gt;
+      </code>
+    </pre>
+    <p>Combinar los cambios de una rama en otra:</p>
+    <pre>
+      <code>
+        git merge &lt;nombre_rama&gt;
+      </code>
+    </pre>
+
+    <h2>Colaboración</h2>
+    <p>Agregar un repositorio remoto:</p>
+    <pre>
+      <code>
+        git remote add origin &lt;url_repositorio_remoto&gt;
+      </code>
+    </pre>
+    <p>Enviar los cambios locales a un repositorio remoto</p>
+    <pre>
+            <code>
+              git push origin &lt;nombre_rama&gt;
+            </code>
+          </pre>
+    <p>
+      Obtener los cambios del repositorio remoto y fusionarlos en la rama local:
+    </p>
+    <pre>
+            <code>
+              git pull origin &lt;nombre_rama&gt;
+            </code>
+          </pre>
+
+    <h2>Navegación en Carpetas</h2>
+    <p>Ver el contenido de una carpeta:</p>
+    <pre>
+            <code>
+              ls
+            </code>
+          </pre>
+    <p>Cambiar al directorio anterior:</p>
+    <pre>
+            <code>
+              cd ..
+            </code>
+          </pre>
+    <p>Ingresar a una carpeta específica:</p>
+    <pre>
+            <code>
+              cd nombre_carpeta
+            </code>
+          </pre>
+    <p>Ver la ruta de la carpeta actual:</p>
+    <pre>
+            <code>
+              pwd
+            </code>
+          </pre>
+  </body>
+  <h2>Manipulación de Archivos y Carpetas</h2>
+  <p>Crear una carpeta:</p>
+  <pre>
+    <code>
+      mkdir nombre_carpeta
+    </code>
+  </pre>
+  <p>Crear un archivo:</p>
+  <pre>
+    <code>
+      touch nombre_archivo
+    </code>
+  </pre>
+  <p>Eliminar un archivo:</p>
+  <pre>
+    <code>
+      rm nombre_archivo
+    </code>
+  </pre>
+  <p>Eliminar una carpeta:</p>
+  <pre>
+    <code>
+      rm -r nombre_carpeta
+    </code>
+  </pre>
+</body>
+</html>
