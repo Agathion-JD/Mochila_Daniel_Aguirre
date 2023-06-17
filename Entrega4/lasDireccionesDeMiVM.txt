@@ -1,0 +1,8 @@
+
+ip privada inet addr:10.0.2.15
+mac HWaddr 08:00:27:95:c5:0f
+ip publica 179.15.248.78
+
+En el caso de la ip privada existen diferencias con el host, pero en el caso  
+de la ip publica esta se mantiene
+
