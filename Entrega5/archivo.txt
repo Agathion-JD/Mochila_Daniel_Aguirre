@@ -1,0 +1,27 @@
+Hola me conecte  por Telnet
+Hola me conecte por ssh
+
+Telnet  ventajas
+
+- es relativamente facil de usar y ya esta integrado con windows
+- es bastante rapido
+
+desventajas 
+
+-es mas inseguro
+
+SSH ventajas 
+
+-es mas seguro
+-es completamente gratuito
+
+desventajas 
+
+-es mas lento
+-es un poco mas complejo de utilizar
+
+Diferencias entre ssh y telnet 
+
+-telnet es mucho mas rapido que ssh
+-ssh es mucho ams seguro que telnet
+-ssh necesita configuraciones extras y mas complejas debido a la seguridad
